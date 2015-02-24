@@ -1,0 +1,24 @@
+<div class="container">
+
+  <div>
+    <div class="row">
+      <h1>When clicking the PDF button below, we need to:</h1>
+    </div>
+    <div class="row">
+      <ul class="lead">
+        <li>send the HTML Sample to the server</li>
+        <li>use the wkhtmltopdf library to convert it as a PDF </li>
+        <li>upload the file to an Amazon S3 bucket</li>
+        <li>make the Amazon file URL accessible to the client for viewing</li>
+        <li>NOTE: This needs to run from heroku!</li>
+      </ul>
+    </div>
+    <div class="row">
+      <p>
+        <a href="#reports/html/invoice" class="btn btn-lg btn-info">HTML Sample</a>
+        <button class="btn btn-lg btn-primary" ng-click="print()"><i class="fa fa-print"></i> PDF</button>
+      </p>
+    </div>
+  </div>
+
+</div>
